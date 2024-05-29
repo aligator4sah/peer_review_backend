@@ -15,6 +15,5 @@ def single_summary():
         content = request.json['content']
         return 'post'
     else:
-       return openai_test.all_summary_prompt
+       return openai_test.get_summary_response()
     
-
